@@ -1,5 +1,5 @@
 ---
-- name: Gather user information
+- name: Upgrade Junos
   hosts: all
   connection: local
   gather_facts: no
