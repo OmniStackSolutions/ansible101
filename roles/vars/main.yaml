@@ -1,0 +1,8 @@
+ansible_ssh_user: nmoore
+ansible_password: '{{ lookup("env", "JUNOSPASS") }}'
+wait_time: 3600
+local_package: "software/"
+os_version: 20.2R3.9
+os_package: jinstall-host-ex-4300mp-x86-64-20.2R3.9-secure-signed.tgz
+log_dir: /var/log/ansible
+ansible_python_interpreter: /usr/local/bin/python3
